@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Your Font', sans-serif;
+}
+
+/* Style for the navigation bar */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Add some spacing to your content so it's not hidden behind the fixed navbar */
+section {
+    padding-top: 70px; /* Adjust as needed based on your navbar height */
+}

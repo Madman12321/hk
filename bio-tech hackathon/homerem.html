@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Portal</title>
+    
+    <style>
+        /* Add your styles here */
+        #logo {
+            max-width: 150px; /* Adjust the maximum width as needed */
+            height: auto; /* This ensures the aspect ratio is maintained */
+            position: absolute;
+            top: 5px; /* Adjust the top position as needed */
+            left: 5px; /* Adjust the left position as needed */
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #792222;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Change the color of normal links */
+        a {
+        color: #000000; /* Set your desired color using hexadecimal, RGB, or color name */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #792222;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+                /* Navigation Bar Styles */
+        nav {
+            background-color: #1d47a1; /* Green background color */
+            padding: 15px;
+            width: 200px; /* Adjust the width as needed */
+            height: 100%; /* Occupy full height */
+            position: fixed; /* Fixed position on the screen */
+            right: 0; /* Align to the right side */
+            top: 0; /* Align to the top */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://inkbotdesign.com/wp-content/uploads/2018/05/template-healthcare-logo-design.png" alt="Your Healthcare Logo" id="logo">
+        <h1><a href="index.html">Healthcare Portal</a></h1>    
+    </header>
+
+    <main>
+        <h2>Welcome to Healthcare Portal</h2>
+        <p>Here are some Home Remedies:<br>
+            Sore Throat:<br>
+            Gargle with warm salt water.<br>
+            Drink honey and warm water.<br>
+            Use throat lozenges.<br>
+            Common Cold:<br>
+            Inhale steam with eucalyptus oil.<br>
+            Drink ginger tea.<br>
+            Consume vitamin C-rich foods.<br>
+            Headache:<br>
+            Apply a cold or warm compress to the forehead.<br>
+            Massage peppermint oil on temples.<br>
+            Indigestion:<br>
+            Chew fennel seeds after meals.<br>
+            Drink ginger tea before meals.<br>
+            Take probiotics.<br>
+            Nausea:<br>
+            Sip on ginger or peppermint tea.<br>
+            Eat small, bland meals.<br>
+            Inhale the scent of a sliced lemon.<br>
+            Upset Stomach:<br>
+            Drink chamomile tea.<br>
+            Consume plain yogurt.<br>
+            Avoid spicy and fatty foods.<br>
+            Acne:<br>
+            Apply a honey and cinnamon mask.<br>
+            Use tea tree oil as a spot treatment.<br>
+            Sunburn:<br>
+            Apply aloe vera gel.<br>
+            Take a cool bath with baking soda.<br>
+            Insomnia:<br>
+            Drink warm milk before bedtime.<br>
+            Create a bedtime routine.<br>
+            Cough:<br>
+
+            Drink warm lemon and honey water.<br>
+            Use honey and ginger in tea.<br>
+            Constipation:<br>
+
+            Increase fiber intake.<br>
+            Drink prune juice.<br>
+            Dry Skin:<br>
+
+            Apply coconut oil.<br>
+            Take shorter, lukewarm showers.<br>
+            Dandruff:<br>
+
+            Rinse hair with apple cider vinegar.<br>
+            Use aloe vera gel on the scalp.<br>
+            Earache:<br>
+
+            Apply a warm compress.<br>
+            Use over-the-counter ear drops.<br>
+            Joint Pain:<br>
+
+            Apply hot or cold packs.<br>
+            Exercise regularly.<br>
+            Allergies:<br>
+
+            Use a saline nasal rinse.<br>
+            Consume local honey.<br>
+            Toothache:<br>
+
+            Rinse with warm salt water.<br>
+            Apply a cold compress to the cheek.<br>
+            Bad Breath:<br>
+
+            Chew parsley or mint leaves.<br>
+            Use a tongue scraper.<br>
+            High Blood Pressure:<br>
+
+            Exercise regularly.<br>
+            Reduce sodium intake.<br>
+            Anxiety:<br>
+
+            Practice deep breathing exercises.<br>
+            Drink chamomile tea.<br>
+            Burns:<br>
+
+            Run cool water over the affected area.<br>
+            Apply aloe vera gel.<br>
+            Bruises:<br>
+
+            Use a cold compress.<br>
+            Apply arnica cream.<br>
+            Hiccups:<br>
+
+            Hold your breath for a few seconds.<br>
+            Drink a glass of cold water quickly.<br>
+            Insect Bites:<br>
+
+            Apply a paste of baking soda and water.<br>
+            Use a cold compress.<br>
+            Motion Sickness:<br>
+
+            Chew on ginger candies.<br>
+            Take deep breaths.<br>
+            Dry Eyes:<br>
+
+            Use warm compresses on closed eyes.<br>
+            Blink frequently.<br>
+            Stye:<br>
+
+            Apply a warm tea bag to the affected eye.<br>
+            Keep the eye clean.<br>
+            Rashes:<br>
+
+            Apply calamine lotion.<br>
+            Take an oatmeal bath.<br>
+            Fatigue:<br>
+
+            Stay hydrated.<br>
+            Take short power naps.<br>
+            Hangover:<br>
+
+            Drink plenty of water.<br>
+            Consume electrolyte-rich drinks.<br>
+            Stress:<br>
+
+            Practice meditation.<br>
+            Engage in relaxing activities.<br>
+            Dry Cough:<br>
+
+            Sip on warm water with honey.<br>
+            Use a humidifier.<br>
+            Stomach Flu:<br>
+
+            Drink clear fluids.<br>
+            Eat the BRAT diet (Bananas, Rice, Applesauce, Toast).<br>
+            Athlete's Foot:<br>
+
+            Soak feet in diluted vinegar.<br>
+            Keep feet dry.<br>
+Nosebleed:<br>
+
+Pinch the nostrils together.<br>
+Lean forward and breathe through the mouth.<br>
+Anemia:<br>
+
+Increase iron-rich foods in the diet.<br>
+Consider iron supplements.<br>
+Memory Improvement:<br>
+
+Eat omega-3 fatty acids.<br>
+Exercise regularly.<br>
+Dry or Chapped Lips:<br>
+
+Apply coconut oil or lip balm.<br>
+Stay hydrated.<br>
+Laryngitis:<br>
+
+Rest the voice.<br>
+Drink warm herbal teas.<br>
+Canker Sores:<br>
+
+Rinse with saltwater.<br>
+Apply aloe vera gel.<br>
+Gout:<br>
+
+Stay hydrated.<br>
+Avoid high-purine foods.<br>
+Warts:<br>
+
+Apply duct tape over the wart.<br>
+Use over-the-counter wart removal products.<br>
+Fever:<br>
+
+Stay hydrated.<br>
+Take a lukewarm bath.<br>
+Nail Fungus:<br>
+
+Soak nails in diluted vinegar.<br>
+Keep nails clean and dry.<br>
+Bee Stings:<br>
+
+Remove the stinger.<br>
+Apply a cold compress.<br>
+Vertigo:<br>
+
+Stay hydrated.<br>
+Perform head exercises.<br>
+Hay Fever:<br>
+
+Use a saline nasal rinse.<br>
+Keep windows closed during high pollen seasons.<br>
+Splinter Removal:<br>
+
+Soak the area in warm water.<br>
+Use tweezers to gently remove the splinter.<br>
+Dull Skin:<br>
+
+Exfoliate with a sugar scrub.<br>
+Stay hydrated.<br>
+Dehydration:<br>
+
+Drink water regularly.<br>
+Consume hydrating fruits and vegetables.<br>
+
+Dry Hair:<br>
+Apply a coconut oil hair mask.<br>
+Rinse hair with apple cider vinegar.<br>
+Toenail Fungus:<br>
+Soak feet in tea tree oil solution.<br>
+Keep toenails clean and trimmed.<br>
+Stomach Gas:<br>
+Drink peppermint tea.<br>
+Avoid carbonated beverages.<br>
+Cracked Heels:<br>
+Soak feet in warm water.<br>
+Apply a thick moisturizer.<br>
+Shin Splints:<br>
+Rest and ice the affected area.<br>
+Stretch the calf muscles.<br>
+Menstrual Cramps:<br>
+Apply a hot water bottle to the lower abdomen.<br>
+Drink chamomile tea.<br>
+Dry or Itchy Scalp:<br>
+Apply aloe vera gel.<br>
+Rinse with cold water after shampooing.<br>
+Motion Sickness:<br>
+Sniff a fresh lemon.<br>
+Chew on ginger gum.<br>
+Chest Congestion:<br>
+Inhale steam with eucalyptus oil.<br>
+Drink hot herbal teas.<br>
+Ear Wax Removal:<br>
+Use warmed olive oil drops.<br>
+Perform the Valsalva maneuver.<br>
+Foot Odor:<br>
+Soak feet in black tea.<br>
+Use antibacterial foot powder.<br>
+Jock Itch:<br>
+Apply antifungal cream.<br>
+Keep the affected area dry.<br>
+Calluses:<br>
+Soak feet in warm water.<br>
+Use a pumice stone.<br>
+Motion Sickness:<br>
+Focus on the horizon during travel.<br>
+Take breaks during long journeys.<br>
+Dry Eyes:<br>
+Blink regularly during screen time.<br>
+Use artificial tears.<br>
+Hangnails:<br>
+Soak fingers in warm water.<br>
+Apply cuticle oil.<br>
+Stiff Neck:<br>
+Apply a cold or warm compress.<br>
+Gently stretch neck muscles.<br>
+Gingivitis:<br>
+Rinse with saltwater.<br>
+Use an antiseptic mouthwash.<br>
+Jet Lag:<br>
+Adjust sleep schedule before travel.<br>
+Stay hydrated during the flight.<br>
+Swollen Gums:<br>
+Apply a cold compress.<br>
+Maintain good oral hygiene.<br>
+Chafing:<br>
+Apply petroleum jelly.<br>
+Wear moisture-wicking clothing.<br>
+Stress Headache:<br>
+Practice deep breathing exercises.<br>
+Massage temples and neck.<br>
+Restless Legs Syndrome:<br>
+Stretch leg muscles before bedtime.<br>
+Apply a cold or warm compress.<br>
+Cold Sores:<br>
+Apply aloe vera gel.<br>
+Use over-the-counter creams.<br>
+Cradle Cap (in infants):<br>
+Apply baby oil and gently brush.<br>
+Wash baby's scalp with a mild shampoo.<br>
+Swimmer's Ear:<br>
+Dry ears thoroughly after swimming.<br>
+Use a mixture of equal parts vinegar and rubbing alcohol.<br>
+Tennis Elbow:<br>
+Rest and ice the affected arm.<br>
+Perform gentle stretching exercises.<br>
+Hemorrhoids:<br>
+Soak in a warm bath.<br>
+Apply witch hazel pads.<br>
+Concussion Recovery:<br>
+Get plenty of rest.<br>
+Avoid activities that can cause strain.<br>
+Carpal Tunnel Syndrome:<br>
+Take breaks to stretch wrists.<br>
+Use a wrist splint.<br>
+Spider Bites:<br>
+Apply a cold compress.<br>
+Elevate the affected limb.<br>
+Bunions:<br>
+Wear comfortable shoes.<br>
+Apply ice for pain relief.<br>
+Groin Pull:<br>
+Rest and ice the affected area.<br>
+Gentle stretching exercises.<br>
+Sciatica Pain:<br>
+Apply a hot or cold compress.<br>
+Perform sciatic nerve stretches.<br>
+Metallic Taste in Mouth:<br>
+Rinse with saltwater.<br>
+Chew sugar-free gum.<br>
+Smelly Feet:<br>
+Soak feet in black tea.<br>
+Use odor-absorbing insoles.<br>
+Poison Ivy Rash:<br>
+Rinse with cold water.<br>
+Apply calamine lotion.<br>
+Numbness in Hands:<br>
+Stretch and massage hands.<br>
+Avoid prolonged positions.<br>
+Stiff Joints:<br>
+Apply a warm compress.<br>
+Engage in gentle joint exercises.<br>
+Tinnitus (Ringing in Ears):<br>
+Avoid loud noises.<br>
+Use white noise for sleep.<br>
+Migraine Relief:<br>
+Rest in a dark, quiet room.<br>
+Apply a cold compress to the forehead.<br>
+Motion Sickness:<br>
+Keep eyes on the horizon during travel.<br>
+Avoid heavy meals before the journey.<br>
+Puffy Eyes:<br>
+Apply cold cucumber slices.<br>
+Get enough sleep.<br>
+Dry Mouth:<br>
+Chew sugar-free gum.<br>
+Stay hydrated.<br>
+Food Poisoning:<br>
+Stay hydrated with clear fluids.<br>
+Rest and avoid solid foods.<br>
+Blackheads:<br>
+Use a clay mask.<br>
+Exfoliate regularly.<br>
+Vertigo:<br>
+Stay hydrated.<br>
+Avoid sudden head movements.<br>
+Knee Pain:<br>
+Apply a cold or warm compress.<br>
+Perform gentle knee exercises.<br>
+Chapped Hands:<br>
+Apply a thick hand cream.<br>
+Wear gloves in cold weather.<br>
+Shingles Pain:<br>
+Apply a cool compress.<br>
+Take pain-relief medication as recommended.<br>
+
+            <a href="healthfact.html">Tips on Selecting the Right Health Insurance</a><br>
+            <a href="healthinfo.html">Important Facts About Health That Most People Do Not Know</a><br>
+            <a href="homerem.html">Home Remedies to Check Out!</a><br>
+            <a href="mockdata..html">Health Care Websites</a><br>
+        </p>
+
+    </main>
+
+    <nav>
+        <a href="https://www.samhsa.gov/mental-health">Mental Illnesses</a>
+        <a href="https://www.cdc.gov/nccdphp/dnpao/features/healthy-eating-tips/index.html">Dieting Tips</a>
+        <a href="https://www.cdc.gov/chronicdisease/resources/publications/factsheets/cancer.htm">Cancer Facts</a>
+        <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/Vitamins-and-minerals">Vitamins</a>
+        <a href="https://alzheimer.ca/en/about-dementia/how-can-i-reduce-risk-dementia/brain-healthy-tips-reduce-your-risk-dementia">Alzheimer's</a>
+        <a href="https://www.cdc.gov/ncbddd/sicklecell/index.html#:~:text=Sickle%20cell%20disease%20(SCD)%20is,activities%20that%20other%20people%20do">Sickle Cell<br> Anemia</a>
+        <a href="https://www.nccih.nih.gov/health/meditation-and-mindfulness-what-you-need-to-know">Medication<br> Side Effects</a>
+        <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/polycystic-ovary-syndrome-pcos#:~:text=Some%20women%20struggle%20with%20the,the%20symptoms%20that%20bother%20you">PCOS</a>
+        <a href="https://www.nhs.uk/conditions/miscarriage/">Miscarriages</a><br>
+        <a href="https://www.cdc.gov/malaria/about/faqs.html#:~:text=Symptoms%20and%20Diagnosis,-What%20are%20the&text=Symptoms%20of%20malaria%20include%20fever,loss%20of%20red%20blood%20cells">Malaria</a><br>
+        <a href="https://www.cdc.gov/meningitis/index.html#:~:text=Meningitis%20is%20an%20inflammation%20(swelling,infections%20also%20can%20cause%20meningitis">Meningitis</a><br>
+        <a href="https://nationaleczema.org/eczema/">Eczema</a><br>
+        <a href="https://my.clevelandclinic.org/health/treatments/23999-plastic-and-reconstructive-surgery">Cosmetic Surgeries</a><br>
+        <a href="https://www.healthdirect.gov.au/nerve-pain">Nerve Pain</a><br>
+        <a href="https://www.who.int/news-room/fact-sheets/detail/hypertension">High Blood Pressure</a><br>
+    </nav>
+
+    <footer>
+        <p>&copy; 2023 Heathcare Directory Website. All rights reserved.</p>
+    </footer>
+
+    </style>
+</head>
+</html>
